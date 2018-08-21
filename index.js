@@ -19,10 +19,6 @@ function relPath(base, filePath) {
 
 	const newPath = filePath.slice(base.length);
 
-	if (newPath[0] === '/') {
-		return newPath.slice(1);
-	}
-
 	return newPath;
 }
 
